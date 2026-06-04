@@ -1,0 +1,55 @@
+# Secrets / credentials
+*.env
+.env
+.env.*
+accessKeys*
+*accessKeys*
+*credentials*
+*Credentials*
+*secret*
+*.pem
+*.key
+*.p12
+*.pfx
+# Google service account / API key JSON files
+key_*.json
+key-*.json
+*service_account*.json
+*serviceaccount*.json
+
+# Model weights (excluded to avoid GitHub 100MB limit)
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.h5
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+logs/
+*.log
